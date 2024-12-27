@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+
+header {
+    background-color: #E7EEFF;
+}
+
+
+header {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #E7EEFF;
+    align-items: center;
+    padding: 12px 28px;
+}
+
+header>img {
+    width: 48px;
+    height: 48px;
+    border-bottom: 1px solid #002B81;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    width: 24px;
+    height: 24px;
+    margin-top: 24px;
+    gap: 24px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.searchContainer {
+    background-color: #E7EEFF;
+    width: 100%;
+    padding: 20px 0;
+    align-self: flex-start;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchDiv {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.searchDiv img {
+    width: 24px;
+    height: 24px;
+}
+
+.search {
+    border: none;
+    background-color: #E7EEFF;
+    width: 290px;
+    line-height: 28px;
+}
+
+.search::placeholder {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.user p {
+    color: #5E6577;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* info */
+
+.container {
+    padding: 0 96px;
+    display: flex;
+    gap: 42px;
+    margin-top: 42px;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+
+.infoDiv {
+    display: flex;
+    gap: 12px;
+    padding: 8px 24px 8px 12px;
+    border-radius: 16px;
+    background-color: #E7EEFF;
+}
+
+.infoDiv {
+    color: #323232;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.infoDiv img {
+    width: 24px;
+    height: 24px;
+}
+
+/* cards */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 42px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom{
+    background-color: #E7EEFF;
+    border-radius: 0px 0px 24px 24px;
+    padding: 8px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.bottom h2 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.bottom p {
+    color: #606060;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
